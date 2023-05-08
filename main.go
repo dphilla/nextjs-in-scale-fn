@@ -1,15 +1,6 @@
-package main
+package github.com/dphilla/nextjs-in-scale-fn
 
-import (
-    "embed"
-    "fmt"
-)
-
+import "embed"
 
 //go:embed *
-var folder embed.FS
-
-func main() {
-	fileContents, _ := folder.ReadFile("404.html")
-	fmt.Println(fileContents)
-}
+embed.FS
