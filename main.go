@@ -3,4 +3,4 @@ package folder
 import "embed"
 
 //go:embed *
-const Folder embed.FS
+var Folder embed.FS
