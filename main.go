@@ -1,4 +1,4 @@
-package github.com/dphilla/nextjs-in-scale-fn
+package folder
 
 import "embed"
 
