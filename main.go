@@ -2,5 +2,5 @@ package folder
 
 import "embed"
 
-//go:embed *
+//go:embed out/*
 var Folder embed.FS
